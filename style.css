@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1260px;
+}
+header{
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    max-width: 1260px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+    background: #7BA46D;
+}
+body{
+    background-image: url("Desktop - 1.jpg");
+    max-width: 1260px;
+}
+table{
+    margin-top: 100px;
+    border-spacing: 100px;
+}
+.table h1{
+    color: rgb(224, 16, 16);
+    position: absolute;
+    width: auto;
+    height: 70px;
+    margin-left: 400px;
+    font-family: 'Kaisei Opti';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+tr, td {
+    background-color: red;
+    padding-bottom: 20px;
+    padding-top: 30p;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+img {
+    margin-top: 30px;
+    width: 145px;
+    height: 146px;
+}
+.sp1{
+    display: flex;
+}
+.sp2{
+    display: flex;
+}
+.sp3 {
+    display: flex;
+}
+.sp4 {
+    display: flex;
+}
+.sp5 {
+    display: flex;
+}
+.sp6 {
+    display: flex;
+}
+.sp7 {
+    display: flex;
+}
+.sp8 {
+    display: flex;
+}
+.sp9 {
+    display: flex;
+}
+.sp1 {
+    display: flex;
+}
+.sp10 {
+    display: flex;
+}
+.sp11 {
+    display: flex;
+}
+.sp12 {
+    display: flex;
+}
+.sp13 {
+    display: flex;
+}
+.sp14 {
+    display: flex;
+}
+.sp15 {
+    display: flex;
+}
+.sp16 {
+    display: flex;
+}
+.sp17 {
+    display: flex;
+}
+.sp18 {
+    display: flex;
+}
+
+.tensp{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+.ndsp{  
+    margin-left: -50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.giá h3{
+    margin-top: 20px;
+}
+label input{
+    margin-top: 130px;
+}
+label{
+    padding: 10px;
+    margin-left: -110px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    background-color: green;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+  
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FC466B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #131011;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: #FC466B;
+}
+  
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.sidebar img{
+    border-radius: 45px;
+    width: 200px;
+    height: 100px;
+}

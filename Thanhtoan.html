@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Thanhtoan.css">
+    <script src="Thanhtoan.js"></script>
+    <link rel="icon" href="mcac.ico" />
+    <title>MCAC</title>
+</head>
+<body>
+    <header>
+        <h1>Thanks for buying our products</h1>
+    </header>
+    <div class="thongtin">
+        <p>Thông tin khách hàng</p>
+        <form action="">
+            <tr><td>Họ và tên:</td><td><input  type="text" name="name" id="name" onkeyup="check()" /></td><td><div id="z-name"></div></td></tr>
+            <tr><td>Email:</td><td><input placeholder="xxx@gmail.com" type="text" name="email" id="email" onkeyup="check()" /></td><td><div id="z-email"></div></td></tr>
+            <tr><td>Sđt:</td><td><input placeholder="+84" type="text" name="password" id="password" onkeyup="check()" /></td><td><div id="z-password"></div></td></tr>
+            <tr><td>Địa chỉ:</td><td><input placeholder="Quận, phường, số nhà" type="text" name="cpassword" id="cpassword" onkeyup="check()" /></td><td><div id="z-cpassword"></div></td></tr>
+          </form>
+    </div>
+    <div class="hoadon">
+        <p>Sản phẩm: <output type="text" for=""></output></p><br><br>
+        <p>Thành tiền:  <output type="number" for="" >vnđ</output></p><br>
+        <div class="phuongthucthanhtoan">
+            <form action="">
+                <label for="hinhthucthanhtoan">Chọn hình thức thanh toán:</label>
+                <select name="tien" id="tien">
+                  <option value="thanhtoankhinhanhang">Thanh toán khi nhận hàng</option>
+                  <option value="thanhtoanbangchuyenkhoan">Thanh toán bằng chuyển khoản:</option>
+                </select>
+                <br><br>
+              </form>
+            <p>Qr code chuyển khoản:<br><img src="images/Untitled1111 1.jpg" width=" 97px"; height=" 97px"></p>
+        </div>
+        <div class="dathang">
+            <img id="imgid" onclick="changeImage() "src="Plugin icon - 1.jpg">
+            
+        </div>
+    </div>
+    <div class="tag">
+        #<b>mcacchristmas</b> 
+    </div>
+
+</body>
+</html>
+
